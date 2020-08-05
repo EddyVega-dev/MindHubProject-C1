@@ -35,5 +35,13 @@
 }
 
 .race_ubication{
-    margin-top: 1vw;
+    margin-top: 1.5vw;
+}
+
+.race_option{
+    padding-left: 3vw;
+}
+
+.letter_race{
+    font-size: 1.3vw;
 }
