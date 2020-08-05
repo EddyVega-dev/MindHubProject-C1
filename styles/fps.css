@@ -18,6 +18,12 @@
 
 .section1{
     background: url("../assets/walkPet.png");
+    background-size: 20vw;
+}
+
+.section2{
+    background: url("../assets/walkPetCat.png");
+    background-size: 10vw;
 }
 
 .imageSearch{
@@ -26,4 +32,8 @@
 
 .cardAbout{
     padding-top: 3vw;
+}
+
+.race_ubication{
+    margin-top: 1vw;
 }
