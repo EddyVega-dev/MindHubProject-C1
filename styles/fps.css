@@ -1,0 +1,29 @@
+.brand-logo-image{
+    height: 5vw;
+}
+
+.logoFooter{
+    height: 8vw;
+}
+
+.caption{
+    position: absolute;
+    top: 25vw;
+    left: 15vw;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1vw;
+    color: gray;
+    text-shadow: 0.5vw 0vw black;
+}
+
+.section1{
+    background: url("../assets/walkPet.png");
+}
+
+.imageSearch{
+    height: 30vw;
+}
+
+.cardAbout{
+    padding-top: 3vw;
+}
