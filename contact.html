@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel=”icon” href=”./assets/logo.ico”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles/fps.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey lighten-1">
+                    <div class="container">
+                        <a href="index.html" class="brand-logo"><img class="brand-logo-image" src="./assets/LogoPetShop.png" alt="brand-logo"></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+                            <li><a href="contact.html"><i class="material-icons left">contacts</i>Contact Us</a></li>
+                            <li><a href="pharmacy.html"><i class="material-icons left">local_pharmacy</i>Pharmacy</a></li>
+                            <li><a href="toys.html"><i class="material-icons left">pets</i>Toys</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section2">
+        <div class="container">
+            <div class="row card hoverable">
+                <div class="col m10 offset-m1 s12">
+                    <h2 class="center-align">Contact Us</h2>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col m6 s12">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col m6 s12">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col m6 s12">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" class="validate" required>
+                                    <label for="email">Email</label>
+                                    <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input id="icon_telephone" type="tel" class="validate">
+                                    <label for="icon_telephone">Telephone</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col m4 s12">
+                                    <input id="name_pet" type="text" class="validate">
+                                    <label for="name_pet">Name Pet</label>
+                                </div> 
+                                <div class="col m4 s12 race_ubication">
+                                    <label class="10">race:</label>
+                                    <div class="col row">
+                                        <label>
+                                            <input type="radio" name="group1" id="group1"/>
+                                            <span>Dog</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="group1" id="group1"/>
+                                            <span>Cat</span>
+                                        </label>                        
+                                        <label>
+                                            <input type="radio" name="group1" id="group1">
+                                            <span>Other</span>
+                                        </label>
+                                    </div>
+                                </div>                                
+                                <div class="input-field col m4 s12">
+                                    <input id="other_race" type="text" class="validate">
+                                    <label for="other_race">Other Race</label>
+                                </div>                                                    
+                            </div>
+                            <div class="row">
+                                <div class="input-field col m6 s12">
+                                    <input id="age_pet" type="tel" class="validate">
+                                    <label for="age_pet">Age</label>
+                                </div>
+                                <div class="input-field col m6 s12">
+                                    <input id="birthdate" type="text" class="datapicker">
+                                    <label for="birthdate">Birthdate</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                  <textarea id="commentary" class="materialize-textarea"></textarea>
+                                  <label for="commentary">Commentary</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m12">
+                                 <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message
+                                     <i class="material-icons right">send</i>
+                                 </button></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s4 16">
+                    <div>
+                        <img class="logoFooter" src="./assets/LogoPetShop.png" alt="LogoPetShop">
+                    </div>
+                </div>
+                <div class="col s4">
+                    <p>The Vision of Pet Shop is to continue being the number 1 company in the commercialization of pet products in CABA, operating with branches in the main neighborhoods.</p>                   
+                </div>                
+                <div class="col s4">
+                    <a class="right" href="Toys"><i class="material-icons left">pets</i></a>
+                    <a class="right" href="Pharmacy"><i class="material-icons left">local_pharmacy</i></a>
+                    <a class="right" href="contact.html"><i class="material-icons left">contacts</i></a>
+                    <a class="right" href="index.html"><i class="material-icons left">home</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrigth grey darken-4">
+            <div class="container"> 
+                &copy; 2020 Copyrigth Franco pet-shop                
+                <a class="right" href="https://github.com/EddyVega-dev" target="_blank">Create by developer Eddy Vega</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
