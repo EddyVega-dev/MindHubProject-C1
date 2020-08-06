@@ -1,9 +1,19 @@
 .brand-logo-image{
-    height: 5vw;
+    height: 4.8vw;
 }
 
 .logoFooter{
     height: 8vw;
+}
+
+.nav-wrapper{
+    background: rgb(59, 74, 114);
+}
+
+.title{
+    font-family: 'Italianno', cursive;
+    color: rgb(59, 74, 114);
+    text-transform: capitalize;
 }
 
 .caption{
@@ -12,7 +22,7 @@
     left: 15vw;
     font-family: 'Bangers', cursive;
     letter-spacing: 1vw;
-    color: gray;
+    color: rgb(37, 46, 71);
     text-shadow: 0.5vw 0vw black;
 }
 
@@ -34,14 +44,34 @@
     padding-top: 3vw;
 }
 
-.race_ubication{
+.label_radio_ubication{
     margin-top: 1.5vw;
 }
 
 .race_option{
-    padding-left: 3vw;
+    padding-left: 1vw;
 }
 
 .letter_race{
     font-size: 1.3vw;
+}
+
+.outline{
+    outline: none;
+}
+
+.responsive{
+    height: 20vw;
+    padding-bottom: 30vw;
+    position: relative;
+}
+
+.responsive iframe{
+    position: absoluto;
+    width: 37.5vw;
+    height: 30vw;
+}
+
+.icons_footer{
+    margin-top: 5vw;
 }
