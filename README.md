@@ -42,4 +42,4 @@
 
 -   Se lanza una alerta para la descripción de cada producto.
 
--   Se hizo responsive cuando se reduce el tamaño de la página a uno de una aplicación mobile con un menú "hamburgues".
+-   Se hizo responsive cuando se reduce el tamaño de la página a uno de una aplicación mobile con un menú "hamburguesa".
