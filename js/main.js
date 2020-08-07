@@ -44,7 +44,7 @@ function main(){
           timer:10000,
           timerProgressBar: true,
           footer: 'Missing relevant information.',
-          imageUrl: './../assets/alertWarning.png',
+          imageUrl: '/../assets/alertWarning.png',
           imageWidth: '20vw',
           imageAlt: 'alertWarnning',
         })
@@ -56,7 +56,7 @@ function main(){
           timer:10000,
           timerProgressBar: true,
           footer: 'Complete, congratulation!!',
-          imageUrl: './../assets/alertConfirm.png',
+          imageUrl: '/../assets/alertConfirm.png',
           imageWidth: '20vw',
           imageAlt: 'alertConfirm',
         }).then((result) => {
