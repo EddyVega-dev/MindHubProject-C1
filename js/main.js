@@ -62,7 +62,7 @@ function main(){
       }
       else{
         Swal.fire({
-          title: 'READY!!!',
+          title: 'READY, THANK FOR WRITING TO US!!!',
           confirmButtonText: 'Confirm',
           timer:10000,
           timerProgressBar: true,

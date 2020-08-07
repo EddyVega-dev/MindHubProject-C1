@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./styles/fps.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -41,17 +42,18 @@
 
     <section class="section orange lighten-2">
         <div class="row container">
-            <h3 class="title center-align">Welcome to pharmaceutical products</h3>
+            <h1 class="title center-align">Welcome to pharmaceutical products</h1>
             <p class="center-align">Our products come from quality distributors that are endorsed by the market.</p>
         </div>
     </section>
 
-    <section id="app">
+    <section class="section3" id="app">
         <div class="container row">
             <div class="col s12 m4" v-for="product in arrayProducts">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img class="activator" :src="product.imagen">
+                        <img class="productImage" :src="product.imagen">
+                        <span v-if="product.stock <= 5" class="card-title red"><div class="hotSale">ULTIMAS UNIDADES!!!!!!</div></span>
                     </div>
                     <div class="card-content center-align">
                         <p>Precio: {{product.precio}}$</p>
@@ -76,6 +78,7 @@
                     </div>
                 </div>
                 <div class="col s4">
+                    <p>Vision</p>
                     <p>The Vision of Pet Shop is to continue being the number 1 company in the commercialization of pet products in CABA, operating with branches in the main neighborhoods.</p>                   
                 </div>                
                 <div class="col s4 container">
