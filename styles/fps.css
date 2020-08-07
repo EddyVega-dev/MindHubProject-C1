@@ -16,16 +16,6 @@
     text-transform: capitalize;
 }
 
-.caption{
-    position: absolute;
-    top: 25vw;
-    left: 15vw;
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1vw;
-    color: rgb(37, 46, 71);
-    text-shadow: 0.5vw 0vw black;
-}
-
 .section1{
     background: url("../assets/walkPet.png");
     background-size: 20vw;
