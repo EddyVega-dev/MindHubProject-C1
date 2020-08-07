@@ -17,13 +17,21 @@
 }
 
 .section1{
-    background: url("../assets/walkPet.png");
+    background: url("../assets/walkPetCat.png");
     background-size: 20vw;
 }
 
 .section2{
     background: url("../assets/walkPetCat.png");
     background-size: 10vw;
+}
+
+.section3{
+    background: url("../assets/fundPharmacy.png");
+}
+
+.section4{
+    background: url("../assets/fundToys.png");
 }
 
 .imageSearch{
@@ -64,4 +72,12 @@
 
 .icons_footer{
     margin-top: 5vw;
+}
+
+.field{
+    font-size: 2vw;
+}
+
+.hotSale{
+    font-size: 1vw;
 }
