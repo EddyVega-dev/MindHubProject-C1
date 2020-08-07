@@ -47,8 +47,7 @@ function main(){
       var phone = $('#phone').val();
       var namePet = $('#name_pet').val();
       var agePet = $('#age_pet').val();
-
-      console.log(typeof(agePet));
+      
       if(nameUser == '' || lastNameUser == '' || emailUser == '' || phone == '' || namePet == '' || agePet == ''){
         Swal.fire({
           title: 'WARNING!!!',
