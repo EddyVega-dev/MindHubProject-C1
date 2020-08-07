@@ -33,6 +33,7 @@ function main(){
   $(document).ready(function(){
     $('.parallax').parallax();
     $('.datapicker').datepicker();
+    $('.sidenav').sidenav();
     $('.dropdown-trigger').dropdown({
       hover: true,
       alignment: 'left',
